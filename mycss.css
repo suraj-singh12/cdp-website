@@ -1,7 +1,6 @@
-.bgvideo{
+.bgv1{
 	overflow: hidden;
-	height : 720px;
-	width : inherit;
-	/* width:auto; */
-	object-fit: fill;
+	width:inherit;
+	height: 720px;
+	object-fit:fill;
 }
