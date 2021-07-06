@@ -2,5 +2,7 @@
 	overflow: hidden;
 	width:inherit;
 	height: 720px;
-	object-fit:fill;
+	object-fit:inherit;
+	margin-left: 115px;
+	opacity: 78%;
 }
