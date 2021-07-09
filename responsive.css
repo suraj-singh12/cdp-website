@@ -4,6 +4,12 @@
 
 /* setting bgvideo responsive */
 
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
 /* for screen which is too wide, 
 maintain 16/9 ratio
 keep width 100%; height auto */
