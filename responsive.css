@@ -1,7 +1,6 @@
 /* importing fonts used [from google] (will replace) */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Indie Flower');
 @import url('https://fonts.googleapis.com/css?family=Abril Fatface');
 /* 
 *{
@@ -28,7 +27,7 @@ body {
 /* -------------------CSS for: To write text on video. -------------- -------------*/
 /* will change it to specifically change the font of text on video */
 #text-on-video{
-    font-family: Indie Flower;
+    font-family: Lobster, Italic;
     font-size: 70px;
     color: white;
     margin-bottom: 10px;
@@ -49,14 +48,21 @@ body {
     flex-direction: column;
     height:100vh;
 }
-  
+
+/* for the form (after name on video) */
 .flex-form {
     display:flex;
     border:20px solid rgba(0,0,0,0.3);
     border-radius:5px;
     width: 400px;
 }
-
+/* input[type="search"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius:5px;
+    width: 100%;
+    text-align: center;
+} */
 /* ----------------------------------------------------------------- */
 
 /*-------------- setting bgvideo responsive --------------*/
@@ -102,7 +108,7 @@ don't show video, show poster only */
 nav{
     width: 100%;
     height: 75 px;
-    background-color: #505d61;
+    background-color: green;
     line-height: 65px;
     padding:0px 100px;
     position: fixed;
@@ -125,3 +131,22 @@ nav ul li{
      display: inline-block;
      list-style: none;
 }
+
+a:link, a:visited {
+    /* background-color: #2ddb36; */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    border: 1px solid rgb(141, 189, 161);
+    border-radius: 5px;
+    /* background: #03e9f4; */
+    /* color: #fff; */
+  }
+  
+  a:hover, a:active {
+      font-weight: bolder;
+      background-color:rgb(145, 217, 223);
+      box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+  }
