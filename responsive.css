@@ -90,7 +90,7 @@ don't show video, show poster only */
         display: none;
     }
     body {
-        background: url('poster.png');
+        background: url('poster.jpeg');
         background-size:inherit;
         overflow: hidden;
     }
@@ -159,6 +159,7 @@ a:link, a:visited {
     grid-template-rows: repeat(1, 400px);       /* 1 row of 100px */
     margin: 10px;
     padding-top: 150px;
+    box-shadow: 15px;
 }
 #c1 , #c2{
     display: flex;
@@ -170,6 +171,6 @@ a:link, a:visited {
     border: 2px solid rgb(25, 150, 199);
     border-radius: 3mm;
     background-color: #555;
-    
+
     margin: 20px;
 }
