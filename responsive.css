@@ -118,6 +118,7 @@ nav .logo{
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1.5px;
+    text-shadow: 5px 8px 12px black;
 }
 nav .logo p{
     float: left;
@@ -150,3 +151,4 @@ a:link, a:visited {
       background-color:rgb(145, 217, 223);
       box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   }
+
