@@ -2,4 +2,13 @@
     background: orangered;
     text-align: center;
     color: white;
+    height: 10px;
 }
+.curved p{
+    font-size: 200px;
+    margin: 20px 20px 20px 20px;
+}
+/* .Deblina {
+    height: 30px;
+    weidth: 20px;
+} */
