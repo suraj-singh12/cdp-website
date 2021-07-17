@@ -41,6 +41,10 @@ section
    width: 50%;
    height: 400px;
    background: url(./formal_deblina.jpg);
+   background-size: contain;
+   
+   background-repeat: no-repeat;
+   width: 30%;
    border-radius: 10px;
    z-index: 40px;
 }
@@ -56,6 +60,62 @@ section
    z-index: 50px;
 }
 /* about deblina end*/
+
+/*about suraj start*/
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+   min-height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+  /* background-color:white; */
+   color:black;
+}
+
+.Suraj
+{
+   width: 90%;
+   max-width: 1000px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.SurajLeft
+{
+   width: 50%;
+   height: 400px;
+   background: url(./formal_suraj.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   /* border: 2px solid red; */
+   /* box-sizing: border-box; */
+   width: 40%;
+   
+   border-radius: 10px;
+   z-index: 40px;
+}
+.SurajRight
+{
+   width: 50%;
+   height: 400px;
+   background-color: blue;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 50px;
+}
+/* about suraj end*/
 
 /*code for navigation bar starts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
