@@ -52,12 +52,29 @@ section
 {
    width: 50%;
    height: 400px;
-   background-color: blue;
+   background-color: white;
    border-radius: 10px;
    display: flex;
-   align-items: center;
+   align-items: left;
    justify-content: center;
    z-index: 50px;
+   padding: 30px;
+}
+.DeblinaRight h2
+{
+    font-size:40px;
+    font-weight: lighter;
+    color:rgb(12, 66, 30);
+}
+.DeblinaRight p
+{
+    margin-top: 5px;
+}
+#connectionD
+{
+    align-items: left;
+    margin: 10px;
+    
 }
 /* about deblina end*/
 
@@ -100,20 +117,32 @@ section
    /* border: 2px solid red; */
    /* box-sizing: border-box; */
    width: 40%;
-   
    border-radius: 10px;
    z-index: 40px;
 }
 .SurajRight
 {
-   width: 50%;
+    width: 50%;
    height: 400px;
-   background-color: blue;
+   background-color: white;
    border-radius: 10px;
    display: flex;
-   align-items: center;
+   align-items: left;
    justify-content: center;
    z-index: 50px;
+   padding: 30px;
+}
+.SurajRight h2
+{
+    font-size:40px;
+    font-weight: lighter;
+    color:rgb(12, 66, 30);
+}
+#connectionS
+{
+    align-items: left;
+    margin: 10px;
+    
 }
 /* about suraj end*/
 
