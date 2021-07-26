@@ -169,7 +169,7 @@ a:link, a:visited {
     color: white;
 
     border: 2px solid rgb(25, 150, 199);
-    border-radius: 3mm;
+    border-radius: 50% / 20% 10% 40%;
     background-color: #555;
 
     margin: 20px;
