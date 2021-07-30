@@ -2,69 +2,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abril Fatface');
-/* 
-*{
-    margin:0;
-} 
-*/
-
-/* ---fill video in screen (but then check responsiveness; not good) */
-/* body {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    overflow: hidden;
-} */
-/* ----------------------------------------------------------------- */
-
-body {
+html {
+    font-size: 20px;
     background-color: antiquewhite;
-}
-#bgvideo {
-    opacity: 0.75;
+    /* overflow-y: hidden; */
 }
 /* ----------------------------------------------------------------- */
 
 /* -------------------CSS for: To write text on video. -------------- -------------*/
 /* will change it to specifically change the font of text on video */
-#text-on-video{
-    font-family: Lobster, Italic;
-    font-size: 70px;
-    color: white;
-    margin-bottom: 10px;
-    text-shadow: 2px 0px 2px rgba(255, 255, 255, 1);
-}
-
-/* to allow text to be placed on video */
-.videoBG{
-    position: absolute;
-    top: 0;
-    z-index: -1; 
-}
-
 .cover {
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction: column;
-    height:100vh;
+    /* height:60vh; */
+    /* margin-top: 10rem; */
+    padding-top: 5rem;
+}
+#text-on-video{
+    font-family: Lobster, Italic;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-shadow: .2rem 0rem 0.2rem rgb(78, 49, 49);
+}
+/* to allow text to be placed on video */
+.videoBG{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+#bgvideo {
+    opacity: 0.75;
 }
 
 /* for the form (after name on video) */
 .flex-form {
     display:flex;
-    border:20px solid rgba(0,0,0,0.3);
-    border-radius:5px;
-    width: 400px;
+    border:1rem solid rgba(0,0,0,0.3);
+    border-radius:.5rem;
+    width: 20rem;
 }
-/* input[type="search"] {
-    padding: 10px;
-    font-size: 16px;
-    border-radius:5px;
-    width: 100%;
-    text-align: center;
-} */
-/* ----------------------------------------------------------------- */
-
 /*-------------- setting bgvideo responsive --------------*/
 /* for screen which is too wide, maintain 16/9 ratio
 keep width 100%; height auto */
@@ -105,35 +84,46 @@ don't show video, show poster only */
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-nav{
+header>nav{
     width: 100%;
-    height: 75 px;
+    height: 4rem;
     background-color: green;
-    line-height: 65px;
-    padding:0px 100px;
+    line-height: 2.5rem;
     position: fixed;
-    z-index: 1;
+    /* z-index: 1; */
 }
-nav .logo{
-    font-size: 30px;
+header>nav>.logo{
+    /* display: inline block; */
+    width: 20%;
+    font-size:1.8rem;
     font-weight: bold;
     letter-spacing: 1.5px;
     text-shadow: 5px 8px 12px black;
-}
-nav .logo p{
+    /* text-align: left; */
     float: left;
-    color:#fff;
+    margin-left: 0.8rem;
+    padding-left: .4rem;
+    margin-top: 0.8rem;
+    color: white;
     text-transform: uppercase;
+    /* border: 2px outset rgb(209, 16, 16); */
+    /* background-color:lightcoral; */
 }
-nav ul{
+header>nav>.logo>a {
+    color: white;
+    text-decoration: none;
+} 
+header>nav>ul{
+    margin-top:0.8rem;
     float: right;
+    margin-right: 0.9rem;
 }
-nav ul li{
+header>nav>ul>li{
      display: inline-block;
      list-style: none;
 }
 
-a:link, a:visited {
+header>nav>ul>li>a:link, nav>ul>li>a:visited {
     /* background-color: #2ddb36; */
     color: white;
     padding: 10px;
@@ -141,12 +131,10 @@ a:link, a:visited {
     text-decoration: none;
     /* display: inline-block; */
     border: 1px solid rgb(141, 189, 161);
-    border-radius: 5px;
-    /* background: #03e9f4; */
-    /* color: #fff; */
-  }
+    border-radius: 0.4rem;
+}
   
-  a:hover, a:active {
+header>nav>ul>li>a:hover, nav>ul>li>a:active {
       font-weight: bolder;
       background-color:rgb(145, 217, 223);
       box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
@@ -156,21 +144,38 @@ a:link, a:visited {
 .topic-boxes{
     display:grid;
     grid-template-columns: repeat(auto-fit, 50%);  /*decide yourself how many columns to make in page, giving each column a width of 50% (we have 2 cols, so 50% is best thing)*/
-    grid-template-rows: repeat(1, 400px);       /* 1 row of 100px */
-    margin: 10px;
-    padding-top: 150px;
-    box-shadow: 15px;
+    grid-template-rows: repeat(1, 20rem);       /* 1 row of 100px */
+    margin-top: 20rem;
+    box-shadow: 1.5rem;
 }
+/* @media (max-height: 740px){
+    .topic-boxes { margin-top: 15rem; }
+} */
 #c1 , #c2{
     display: flex;
     justify-content:center;
     align-items: center;
-
+    height: 30%;
     color: white;
-
-    border: 2px solid rgb(25, 150, 199);
+    font-size: 1.5rem;
+    border: 0.1px solid rgb(25, 150, 199);
+    background-color: rgb(73, 163, 96);
+    margin: 1rem;
+    transition: font-size 2s, box-shadow 1s;
+}
+#c1 {
     border-radius: 50% / 20% 10% 40%;
-    background-color: #555;
+}
 
-    margin: 20px;
+#c2 {
+    border-radius: 50% / 10% 28% 18%;
+}
+#c1:hover {
+    /* transform: scale(1.09); */
+    font-size: 1.8rem;
+    box-shadow: -0.9rem 0.7rem 0.5rem 0.1rem  black ;
+}
+#c2:hover {
+    font-size: 1.8rem;
+    box-shadow: 0.9rem 0.7rem 0.5rem 0.1rem  black ;
 }
