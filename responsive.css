@@ -5,7 +5,8 @@
 html {
     font-size: 20px;
     background-color: antiquewhite;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
+    
 }
 /* ----------------------------------------------------------------- */
 
@@ -109,7 +110,7 @@ header>nav>.logo{
     /* border: 2px outset rgb(209, 16, 16); */
     /* background-color:lightcoral; */
 }
-header>nav>.logo>a {
+header>nav>.logo>a, #c1>a, #c2>a {
     color: white;
     text-decoration: none;
 } 
@@ -145,7 +146,7 @@ header>nav>ul>li>a:hover, nav>ul>li>a:active {
     display:grid;
     grid-template-columns: repeat(auto-fit, 50%);  /*decide yourself how many columns to make in page, giving each column a width of 50% (we have 2 cols, so 50% is best thing)*/
     grid-template-rows: repeat(1, 20rem);       /* 1 row of 100px */
-    margin-top: 20rem;
+    margin-top: 22rem;
     box-shadow: 1.5rem;
 }
 /* @media (max-height: 740px){
@@ -159,7 +160,11 @@ header>nav>ul>li>a:hover, nav>ul>li>a:active {
     color: white;
     font-size: 1.5rem;
     border: 0.1px solid rgb(25, 150, 199);
-    background-color: rgb(73, 163, 96);
+    /* background-color: #e98f18c0; */
+    /* background-color: #d00000ad; */
+    /* background-color: #ffb4a2; */
+    /* background-color: #ff4d6d; */
+    background-color: #ffd60a;
     margin: 1rem;
     transition: font-size 2s, box-shadow 1s;
 }
