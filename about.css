@@ -4,10 +4,10 @@ section{
     width: 100%;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background: linear-gradient(-45deg, #EE7752, #E73C7E,#23A6D5, #23D5AB);
     background-size: 400% 400%;
     position: relative;
-    animation:change 10s ease-in-out infinite;
+    animation:change 5s ease-in-out infinite;
 }
 @keyframes change {
     0%{
@@ -252,22 +252,24 @@ nav ul li{
 /*navigation bar code ends here*/
 
 /*connection button starts*/
+.wrapper{
+    margin-left: 77px;
+}
 .wrapper .button 
 {
    display: inline-block;
    height: 60px;
    width: 60px;
-   float: left;
+   float: bottom;
    margin: 0 5px;
    overflow: hidden;
-   background: rgb(0, 255, 136);
    border-radius:50px; 
    cursor: pointer;
-   box-shadow:0px 10px 10px rgba(0,0,0,0.1);
+   box-shadow:10px 10px 0px rgba(124, 63, 63, 0.1);
    /* transition: all 0.3 ease-out; */
 }
 .wrapper .button:hover{
-    width:200px;
+    width: 200px;
 }
 .wrapper .button .icon {
     display: inline-block;
@@ -287,6 +289,19 @@ nav ul li{
     font-weight: 500px;
     line-height: 60px;
     margin-left: 10px;
+    color: #fff;
+}
+#githubcolor{
+  background: black;
+}
+#instagramcolor{
+    background:#E73C7E;
+}
+#linkedincolor{
+    background:#046183;
+}
+#twittercolor{
+    background:#23A6D5;
 }
 
 /*connection button ends*/
