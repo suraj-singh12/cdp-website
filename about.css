@@ -49,7 +49,17 @@ section
   /* background-color:white; */
    color:black;
 }
-
+#Dphoto{
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+#Dname{
+    margin-left:25px;
+    padding-left:7px;
+    font-family: Lobster;
+}
 .Deblina
 {  
    padding-bottom: 150px;
@@ -59,19 +69,6 @@ section
    display: flex;
    align-items: center;
    justify-content: center;
-}
-
-.DeblinaLeft
-{
-   width: 50%;
-   height: 400px;
-   background: url(./formal_deblina.jpg);
-   background-size: contain;
-   
-   background-repeat: no-repeat;
-   width: 30%;
-   border-radius: 10px;
-   z-index: 40px;
 }
 .DeblinaRight
 {
@@ -121,7 +118,13 @@ section
   /* background-color:white; */
    color:black;
 }
-
+#Sname{
+    margin-left: 50px;
+    font-family: Lobster;
+}
+#Scontent{
+    line-height:23px;
+}
 .Suraj
 {  
    padding-bottom: 150px;
@@ -132,24 +135,17 @@ section
    align-items: center;
    justify-content: center;
 }
-
-.SurajLeft
-{
-   width: 50%;
-   height: 400px;
-   background: url(./formal_suraj.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   /* border: 2px solid red; */
-   /* box-sizing: border-box; */
-   width: 40%;
-   border-radius: 10px;
-   z-index: 40px;
+#Sphoto{
+    height: 400px;
+    width: 330px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
 }
+
 .SurajRight
 {
     width: 50%;
-   height: 400px;
+   height: 405px;
    background-color: white;
    border-radius: 10px;
    display: flex;
@@ -253,14 +249,14 @@ nav ul li{
 
 /*connection button starts*/
 .wrapper{
-    margin-left: 77px;
+    margin-left:28px;
 }
 .wrapper .button 
 {
    display: inline-block;
    height: 60px;
    width: 60px;
-   float: bottom;
+   float:left;
    margin: 0 5px;
    overflow: hidden;
    border-radius:50px; 
@@ -269,8 +265,38 @@ nav ul li{
    /* transition: all 0.3 ease-out; */
 }
 .wrapper .button:hover{
-    width: 200px;
+    height: 200px;
 }
+#IDverticallydown{
+   float:left;
+   margin:10px 10px 5px;
+   padding:0px 0px 47px;
+   transform:rotate(270deg);
+   }
+#GDverticallydown{
+    float:left;
+    margin:0px 10px 5px;
+    padding:20px 0px 40px 0px;
+    transform:rotate(270deg);
+    }
+#LDverticallydown{
+    float:left;
+    margin:0px 10px 5px;
+    padding:20px 0px 50px 0px;
+    transform:rotate(270deg);
+}
+#TSverticallydown{
+    float:left;
+    margin:10px 10px 5px;
+    padding:0px 0px 15px;
+    transform:rotate(270deg);
+    }
+#LSverticallydown{
+        float:left;
+        margin:10px 10px 5px;
+        padding:0px 0px 35px;
+        transform:rotate(270deg);
+        }
 .wrapper .button .icon {
     display: inline-block;
    height: 60px;
