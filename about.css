@@ -262,7 +262,7 @@ nav ul li{
    border-radius:50px; 
    cursor: pointer;
    box-shadow:10px 10px 0px rgba(124, 63, 63, 0.1);
-   /* transition: all 0.3 ease-out; */
+   transition: all 0.3s ease-in-out;
 }
 .wrapper .button:hover{
     height: 200px;
