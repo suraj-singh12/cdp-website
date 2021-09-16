@@ -1,0 +1,39 @@
+w * h
+360*640
+411*823
+414*736
+
+iPad 			motion
+768*1024
+
+iPad Pro		motion
+1024*1367
+
+quite bad (height):
+
+Galaxy S5/Moto G4
+360*640	static
+
+Pixel 2
+411*723	static
+
+Pixel 2 XL
+411*823	static
+
+iPhone 5/SE
+320*568	static
+
+iPhone 6/7/8
+375*667	static
+
+iPhone 6/7/8 plus
+414*736	static
+
+iPhone x
+375*812	static
+
+surface duo
+540*720 	static
+
+galaxy fold
+280*653 	static
