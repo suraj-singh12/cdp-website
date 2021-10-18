@@ -8,7 +8,7 @@ body {
   padding:0;
   font-family: sans-serif;
   
-  background-image:url('background-img.jpg'); 
+  background-image:url('../img-res/background-img.jpg'); 
   background-size:cover;
   /* background-repeat:   no-repeat; */
   background-position: bottom;          
