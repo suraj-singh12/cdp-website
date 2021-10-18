@@ -165,7 +165,7 @@ header>nav>ul>li>a:hover, nav>ul>li>a:active {
 
 /*-------------- setting bgvideo responsive --------------*/
 @media (min-aspect-ratio: 19/9) {
-    #.videoBG{
+    #videoBG{
         display: none;
     }
 
