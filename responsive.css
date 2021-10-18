@@ -164,6 +164,14 @@ header>nav>ul>li>a:hover, nav>ul>li>a:active {
 
 
 /*-------------- setting bgvideo responsive --------------*/
+@media (min-aspect-ratio: 19/9) {
+    #.videoBG{
+        display: none;
+    }
+
+}
+
+/* for laptop/desktop screen*/
 /* for screen which is too wide, maintain 16/9 ratio
 keep width 100%; height auto */
 @media (min-aspect-ratio: 16/9){
@@ -175,8 +183,6 @@ keep width 100%; height auto */
 }
 /* for screen that's too long: maintain 16/9 ratio
 and height 100% width auto*/
-
-/* for laptop/desktop screen types */
 @media (max-aspect-ratio: 16/9) {
     #bgvideo { 
         width:auto;
@@ -212,4 +218,3 @@ and height 100% width auto*/
         height: 60%;
     }
 }
-
